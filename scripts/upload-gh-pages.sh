@@ -10,7 +10,7 @@ mkdir _build/html/docs
 cp -r ../images _build/html/docs
 cp -r ../../fastlane _build/html
 
-git clone --quiet --branch=gh-pages https://jayasanka:$GITHUB_API_KEY@github.com/jayasanka/phimpme-android gh-pages > /dev/null
+git clone --quiet --branch=gh-pages https://jayasanka-sack:$GITHUB_API_KEY@github.com/jayasanka-sack/phimpme-android gh-pages > /dev/null
 cd gh-pages
 
 rm -rf *
